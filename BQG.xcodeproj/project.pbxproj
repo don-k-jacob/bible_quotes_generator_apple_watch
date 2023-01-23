@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		626AC1F6297E6D17003D5537 /* BQG Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 626AC1F5297E6D17003D5537 /* BQG Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		626AC1FB297E6D17003D5537 /* BQGApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AC1FA297E6D17003D5537 /* BQGApp.swift */; };
+		626AC1FD297E6D17003D5537 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AC1FC297E6D17003D5537 /* ContentView.swift */; };
+		626AC1FF297E6D1A003D5537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 626AC1FE297E6D1A003D5537 /* Assets.xcassets */; };
+		626AC202297E6D1A003D5537 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 626AC201297E6D1A003D5537 /* Preview Assets.xcassets */; };
+		626AC20C297E6D1A003D5537 /* BQG_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AC20B297E6D1A003D5537 /* BQG_Watch_AppTests.swift */; };
+		626AC216297E6D1A003D5537 /* BQG_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AC215297E6D1A003D5537 /* BQG_Watch_AppUITests.swift */; };
+		626AC218297E6D1A003D5537 /* BQG_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626AC217297E6D1A003D5537 /* BQG_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		626AC1F7297E6D17003D5537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 626AC1E9297E6D17003D5537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 626AC1F4297E6D17003D5537;
+			remoteInfo = "BQG Watch App";
+		};
+		626AC208297E6D1A003D5537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 626AC1E9297E6D17003D5537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 626AC1F4297E6D17003D5537;
+			remoteInfo = "BQG Watch App";
+		};
+		626AC212297E6D1A003D5537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 626AC1E9297E6D17003D5537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 626AC1F4297E6D17003D5537;
+			remoteInfo = "BQG Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		626AC21E297E6D1A003D5537 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				626AC1F6297E6D17003D5537 /* BQG Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		626AC1EF297E6D17003D5537 /* BQG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BQG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		626AC1F5297E6D17003D5537 /* BQG Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BQG Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		626AC1FA297E6D17003D5537 /* BQGApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BQGApp.swift; sourceTree = "<group>"; };
+		626AC1FC297E6D17003D5537 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		626AC1FE297E6D1A003D5537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		626AC201297E6D1A003D5537 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		626AC207297E6D1A003D5537 /* BQG Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BQG Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		626AC20B297E6D1A003D5537 /* BQG_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BQG_Watch_AppTests.swift; sourceTree = "<group>"; };
+		626AC211297E6D1A003D5537 /* BQG Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BQG Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		626AC215297E6D1A003D5537 /* BQG_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BQG_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		626AC217297E6D1A003D5537 /* BQG_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BQG_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		626AC1F2297E6D17003D5537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626AC204297E6D1A003D5537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626AC20E297E6D1A003D5537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		626AC1E8297E6D17003D5537 = {
+			isa = PBXGroup;
+			children = (
+				626AC1F9297E6D17003D5537 /* BQG Watch App */,
+				626AC20A297E6D1A003D5537 /* BQG Watch AppTests */,
+				626AC214297E6D1A003D5537 /* BQG Watch AppUITests */,
+				626AC1F0297E6D17003D5537 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		626AC1F0297E6D17003D5537 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				626AC1EF297E6D17003D5537 /* BQG.app */,
+				626AC1F5297E6D17003D5537 /* BQG Watch App.app */,
+				626AC207297E6D1A003D5537 /* BQG Watch AppTests.xctest */,
+				626AC211297E6D1A003D5537 /* BQG Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		626AC1F9297E6D17003D5537 /* BQG Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				626AC1FA297E6D17003D5537 /* BQGApp.swift */,
+				626AC1FC297E6D17003D5537 /* ContentView.swift */,
+				626AC1FE297E6D1A003D5537 /* Assets.xcassets */,
+				626AC200297E6D1A003D5537 /* Preview Content */,
+			);
+			path = "BQG Watch App";
+			sourceTree = "<group>";
+		};
+		626AC200297E6D1A003D5537 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				626AC201297E6D1A003D5537 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		626AC20A297E6D1A003D5537 /* BQG Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				626AC20B297E6D1A003D5537 /* BQG_Watch_AppTests.swift */,
+			);
+			path = "BQG Watch AppTests";
+			sourceTree = "<group>";
+		};
+		626AC214297E6D1A003D5537 /* BQG Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				626AC215297E6D1A003D5537 /* BQG_Watch_AppUITests.swift */,
+				626AC217297E6D1A003D5537 /* BQG_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "BQG Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		626AC1EE297E6D17003D5537 /* BQG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 626AC21F297E6D1A003D5537 /* Build configuration list for PBXNativeTarget "BQG" */;
+			buildPhases = (
+				626AC1ED297E6D17003D5537 /* Resources */,
+				626AC21E297E6D1A003D5537 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				626AC1F8297E6D17003D5537 /* PBXTargetDependency */,
+			);
+			name = BQG;
+			productName = BQG;
+			productReference = 626AC1EF297E6D17003D5537 /* BQG.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		626AC1F4297E6D17003D5537 /* BQG Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 626AC21B297E6D1A003D5537 /* Build configuration list for PBXNativeTarget "BQG Watch App" */;
+			buildPhases = (
+				626AC1F1297E6D17003D5537 /* Sources */,
+				626AC1F2297E6D17003D5537 /* Frameworks */,
+				626AC1F3297E6D17003D5537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BQG Watch App";
+			productName = "BQG Watch App";
+			productReference = 626AC1F5297E6D17003D5537 /* BQG Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		626AC206297E6D1A003D5537 /* BQG Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 626AC222297E6D1A003D5537 /* Build configuration list for PBXNativeTarget "BQG Watch AppTests" */;
+			buildPhases = (
+				626AC203297E6D1A003D5537 /* Sources */,
+				626AC204297E6D1A003D5537 /* Frameworks */,
+				626AC205297E6D1A003D5537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				626AC209297E6D1A003D5537 /* PBXTargetDependency */,
+			);
+			name = "BQG Watch AppTests";
+			productName = "BQG Watch AppTests";
+			productReference = 626AC207297E6D1A003D5537 /* BQG Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		626AC210297E6D1A003D5537 /* BQG Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 626AC225297E6D1A003D5537 /* Build configuration list for PBXNativeTarget "BQG Watch AppUITests" */;
+			buildPhases = (
+				626AC20D297E6D1A003D5537 /* Sources */,
+				626AC20E297E6D1A003D5537 /* Frameworks */,
+				626AC20F297E6D1A003D5537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				626AC213297E6D1A003D5537 /* PBXTargetDependency */,
+			);
+			name = "BQG Watch AppUITests";
+			productName = "BQG Watch AppUITests";
+			productReference = 626AC211297E6D1A003D5537 /* BQG Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		626AC1E9297E6D17003D5537 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					626AC1EE297E6D17003D5537 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					626AC1F4297E6D17003D5537 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					626AC206297E6D1A003D5537 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 626AC1F4297E6D17003D5537;
+					};
+					626AC210297E6D1A003D5537 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 626AC1F4297E6D17003D5537;
+					};
+				};
+			};
+			buildConfigurationList = 626AC1EC297E6D17003D5537 /* Build configuration list for PBXProject "BQG" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 626AC1E8297E6D17003D5537;
+			productRefGroup = 626AC1F0297E6D17003D5537 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				626AC1EE297E6D17003D5537 /* BQG */,
+				626AC1F4297E6D17003D5537 /* BQG Watch App */,
+				626AC206297E6D1A003D5537 /* BQG Watch AppTests */,
+				626AC210297E6D1A003D5537 /* BQG Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		626AC1ED297E6D17003D5537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626AC1F3297E6D17003D5537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626AC202297E6D1A003D5537 /* Preview Assets.xcassets in Resources */,
+				626AC1FF297E6D1A003D5537 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626AC205297E6D1A003D5537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626AC20F297E6D1A003D5537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		626AC1F1297E6D17003D5537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626AC1FD297E6D17003D5537 /* ContentView.swift in Sources */,
+				626AC1FB297E6D17003D5537 /* BQGApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626AC203297E6D1A003D5537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626AC20C297E6D1A003D5537 /* BQG_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626AC20D297E6D1A003D5537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626AC216297E6D1A003D5537 /* BQG_Watch_AppUITests.swift in Sources */,
+				626AC218297E6D1A003D5537 /* BQG_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		626AC1F8297E6D17003D5537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 626AC1F4297E6D17003D5537 /* BQG Watch App */;
+			targetProxy = 626AC1F7297E6D17003D5537 /* PBXContainerItemProxy */;
+		};
+		626AC209297E6D1A003D5537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 626AC1F4297E6D17003D5537 /* BQG Watch App */;
+			targetProxy = 626AC208297E6D1A003D5537 /* PBXContainerItemProxy */;
+		};
+		626AC213297E6D1A003D5537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 626AC1F4297E6D17003D5537 /* BQG Watch App */;
+			targetProxy = 626AC212297E6D1A003D5537 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		626AC219297E6D1A003D5537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		626AC21A297E6D1A003D5537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		626AC21C297E6D1A003D5537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BQG Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 93TD59CJ8N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BQG;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tatos.BQG.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		626AC21D297E6D1A003D5537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BQG Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 93TD59CJ8N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BQG;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tatos.BQG.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		626AC220297E6D1A003D5537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93TD59CJ8N;
+				INFOPLIST_KEY_CFBundleDisplayName = BQG;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tatos.BQG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		626AC221297E6D1A003D5537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93TD59CJ8N;
+				INFOPLIST_KEY_CFBundleDisplayName = BQG;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tatos.BQG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		626AC223297E6D1A003D5537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93TD59CJ8N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tatos.BQG-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BQG Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BQG Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		626AC224297E6D1A003D5537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93TD59CJ8N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tatos.BQG-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BQG Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BQG Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		626AC226297E6D1A003D5537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93TD59CJ8N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tatos.BQG-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BQG Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		626AC227297E6D1A003D5537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93TD59CJ8N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tatos.BQG-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BQG Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		626AC1EC297E6D17003D5537 /* Build configuration list for PBXProject "BQG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				626AC219297E6D1A003D5537 /* Debug */,
+				626AC21A297E6D1A003D5537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		626AC21B297E6D1A003D5537 /* Build configuration list for PBXNativeTarget "BQG Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				626AC21C297E6D1A003D5537 /* Debug */,
+				626AC21D297E6D1A003D5537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		626AC21F297E6D1A003D5537 /* Build configuration list for PBXNativeTarget "BQG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				626AC220297E6D1A003D5537 /* Debug */,
+				626AC221297E6D1A003D5537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		626AC222297E6D1A003D5537 /* Build configuration list for PBXNativeTarget "BQG Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				626AC223297E6D1A003D5537 /* Debug */,
+				626AC224297E6D1A003D5537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		626AC225297E6D1A003D5537 /* Build configuration list for PBXNativeTarget "BQG Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				626AC226297E6D1A003D5537 /* Debug */,
+				626AC227297E6D1A003D5537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 626AC1E9297E6D17003D5537 /* Project object */;
+}
